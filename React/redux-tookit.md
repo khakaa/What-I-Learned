@@ -81,7 +81,7 @@ const reducer = (state = [], action) => {
 
 1. 그냥 reducer
 
-- initialState를 action을 통해 새로운 state로 변형시키고, 그 값을 store에 전달한다.
+- initialState를 action을 통해 새로운 state로 변형시키고, 그 값을 store에 전달한다.
 - `switch statements`와 `immutable` updates를 사용하는 일반적인 reducer
   ```js
     const reducer = (state = [], action) => {
