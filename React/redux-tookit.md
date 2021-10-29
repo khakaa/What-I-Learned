@@ -120,7 +120,7 @@ const reducer = (state = [], action) => {
 
 ---
 
-## 3. createSlice
+## 4. createSlice
 
 - 작성한 reducer 함수의 이름을 기반으로 action type, action creator를 자동으로 만들어준다.
 
